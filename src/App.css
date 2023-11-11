@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: darkgray;
+  min-height: 100vh;
+}
+
+.metadata {
+  margin-top: 20px;
+  margin-left: 30px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.video {
+  margin-top: 20px;
+}
+
+.waveform {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 100%;
+  max-width: 800px; 
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.react-player {
+  margin-top: 10px;
+}
+
+audio {
+  display: none; 
+}
